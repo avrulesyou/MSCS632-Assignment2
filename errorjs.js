@@ -1,0 +1,12 @@
+// JavaScript: Missing closing brace
+function calculateSum(arr) {
+    let total = 0;
+    for (let num of arr) {
+        total += num;
+    }
+    return total;
+// <--- Syntax error here, missing '}'
+
+let numbers = [1, 2, 3, 4, 5];
+let result = calculateSum(numbers);
+console.log("Sum in JavaScript:", result);
